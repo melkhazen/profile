@@ -14,15 +14,15 @@ main {
     background-position: center;
 }
 .landing-about {
-    min-height: 70vh;
-    background: url(/img/background.jpg);
+    min-height: 100vh;
+    background: url(/img/pencil.jpg);
     background-size: cover;
     padding: 0rem 5rem;
     background-position: center;
 }
 .landing-contact {
-    min-height: 70vh;
-    background: url(/img/background.jpg);
+    min-height: 100vh;
+    background: url(/img/phone.jpg);
     background-size: cover;
     padding: 0rem 5rem;
     background-position: center;
@@ -79,4 +79,43 @@ a {
 #logo:hover {
     background: rgb(66, 64, 64);
     color: white;
+}
+.inbetween {
+    /* display: flex; */
+    /* object-position: center; */
+    font-size: 40px;
+    text-align: center;
+    padding-top: 1.5%;
+}
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 45vh;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.box1 {
+    border:rgb(0, 0, 0) 1px solid;
+    border-radius: 10PX;
+    padding-bottom: 150px;
+    padding-left: 30px;
+    padding-right: 30px
+
+}
+.box2 {
+    border:rgb(0, 0, 0) 1px solid;
+    border-radius: 10PX;
+    padding-bottom: 150px;
+    padding-left: 30px;
+    padding-right: 30px
+
+}
+.box3 {
+    border:rgb(0, 0, 0) 1px solid;
+    border-radius: 10PX; 
+    padding-bottom: 150px;
+    padding-left: 30px;
+    padding-right: 30px
+
 }
